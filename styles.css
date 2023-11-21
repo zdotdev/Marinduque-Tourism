@@ -1,0 +1,53 @@
+
+.container .navbar-brandd{
+    position: relative;
+    font-family:"Incosolata" , Consolas , monospace ;
+    color: rgb(236, 204, 156);
+    font-size: 30px;
+}
+.container .navbar-brandd::after{
+    content: '|';
+    position: absolute;
+    right: 0;
+    color: white;
+    background-color: 1d1f20;
+    width: 100%;
+    animation: typing 2s steps(14) infinite,
+                line 1s infinite;
+}
+@keyframes typing{
+     to {width: 0%;}
+}
+@keyframes line{
+    50%{
+        color: transparent;
+    }
+}
+h2 {
+    margin-left: 24rem;
+    margin-bottom: 2rem;
+}
+h5{
+    margin-left: 4rem;
+}
+.card-body p {
+    text-align: center;
+    text-wrap: balance;
+    margin-top: 6px;
+}
+.img-act{
+    height: 100px;
+    border-radius: 20%;
+    margin-left: 6rem;
+}
+.card-body img{
+    width: 100px;
+}
+.container-footer h2{
+    position: absolute;
+    top: 333%;
+    left: 14%;
+}
+.card-title{
+    margin-left: 6rem;
+}
