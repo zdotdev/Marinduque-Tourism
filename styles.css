@@ -23,9 +23,16 @@
         color: transparent;
     }
 }
-h2 {
-    margin-left: 24rem;
-    margin-bottom: 2rem;
+.title-header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem 0rem;
+}
+@media only screen and (min-width: 300px) {
+    .title-header{
+        font-size: 2rem;
+    }
 }
 h5{
     margin-left: 4rem;
@@ -49,5 +56,11 @@ h5{
     left: 14%;
 }
 .card-title{
-    margin-left: 6rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+#disp{
+    display: flex;
+    gap: 4rem;
 }
